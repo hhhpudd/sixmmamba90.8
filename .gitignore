@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Weights
+*.pth
+
+# Data
+*.npy
+*.zip
+
+# TensorBoard logs
+/logs/
+lib/logs/sixmamba/lib/logs/
+lib/logs/sixmamba/logs/
+
+# Training text logs
+*.log
+
+# Checkpoints
+/snapshots/
+lib/logs/sixmamba/snapshots/
+
+# Pretrained weights
+/pretrained/
+lib/logs/sixmamba/pretrained/
+
+# Data directory
+/data/
+lib/logs/sixmamba/data/
+
+# Backup / junk / system
+*.bak
+=
+.ipynb_checkpoints/
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store
